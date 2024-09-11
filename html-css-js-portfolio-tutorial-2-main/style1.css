@@ -1,0 +1,125 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Form Section */
+#forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 400px;
+    background-color: white;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-group input {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #333;
+}
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.form-options .remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.form-options .forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.form-options .forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    font-weight: 600;
+    padding: 1rem;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-color-1 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .btn-color-1:hover {
+    background-color: #333;
+  }
+  
+  .btn-color-2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .btn-color-2:hover {
+    background-color: rgb(53, 53, 53);
+    color: #fff;
+  }
+
+.account-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.account-text a:hover {
+    text-decoration: underline;
+}

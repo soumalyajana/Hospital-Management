@@ -1,0 +1,90 @@
+/* Form Section */
+#forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 600px;
+}
+
+.form {
+    padding: 2rem;
+    border: 0.1rem solid rgb(163, 163, 163);
+    border-radius: 2rem;
+    background-color: white;
+}
+
+.form h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form-row {
+    display: flex;
+    gap: 1rem; /* Spacing between fields */
+}
+
+.form-group label {
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+}
+
+.form-group input {
+    padding: 0.65rem;
+    border: 0.1rem solid rgb(163, 163, 163);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.form-row .form-group {
+    width: 50%; /* Ensure each field takes half of the row */
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: rgb(53, 53, 53);
+}
+
+/* Buttons */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.btn {
+    font-weight: 600;
+    padding: 0.8rem;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 2rem;
+}
+
+.btn-color-1 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-color-1:hover {
+    background-color: #333;
+}
+
+.account-text {
+    text-align: center;
+    margin-top: 1rem;
+}

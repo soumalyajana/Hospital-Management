@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <section id="forms">
+        <div class="form-container">
+          <!-- Login Form -->
+          <form class="form" id="login-form">
+            <h1 class="title">Login</h1>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" placeholder="Enter your password" required />
+            </div>
+            <div class="form-options">
+                <div class="remember-me">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember Me</label>
+                </div>
+                <div class="forgot-password">
+                    <a href="#">Forgot Password?</a>
+                </div>
+            </div>
+            <div class="btn-container">
+              <button class="btn btn-color-1" type="submit">Login</button>
+            </div>
+            <p class="account-text">
+                Don't have an account? <a href="register.html">Register here</a>
+            </p>
+          </form>
+        </div>
+    </section>
+</body>
+</html>
